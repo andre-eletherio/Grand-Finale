@@ -35,6 +35,8 @@ Com isso, é possível testar o nosso site, juntamente com a API.
 Com isso, é possível testar a nossa aplicação Android, juntamente com a API.
 
 
+# Finalizando
+
 Após a realização de todos os passos e testes, basta fechar as aplicações e encerrar os processos dos terminais.
 
 Para execução dos testes locais, foram utilizadas as seguintes versões:
