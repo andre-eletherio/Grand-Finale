@@ -1,0 +1,23 @@
+# Pacotes Node
+node_modules
+
+# Pnpm-store
+.pnpm-store
+
+# Ambiente
+.env
+
+# Build
+dist
+
+# Cobertura de Testes
+coverage
+
+# Docker
+.docker
+
+# Editor
+.vscode
+.idea
+
+build

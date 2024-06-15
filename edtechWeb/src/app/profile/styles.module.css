@@ -1,0 +1,56 @@
+.page {
+    background-color: #449DD1;
+    width: 1000%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    justify-content: center;
+    align-items: center;
+}
+
+.page h1 {
+    margin-bottom: 30px;
+    padding: 0 20px;
+    text-align: center;
+}
+
+.alter {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.page input {
+    font-size: 20px;
+    border: 2px solid #888888;
+    border-radius: 20px;
+    padding: 5px 20px;
+    width: 60%;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.button {
+    color: white;
+    max-width: 100%;
+    font-weight: bold;
+}
+
+.button p:last-of-type {
+    background-color: #78C0E0;
+    padding: 10px 20px;
+    border-radius: 50px;
+    cursor: pointer;
+    width: 200px;
+    text-align: center;
+}
+
+.button p:last-of-type:hover {
+    transform: scale(1.02);
+}

@@ -1,0 +1,37 @@
+.page {
+    background-color: #449DD1;
+    width: 1000%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    justify-content: center;
+    align-items: center;
+}
+
+.page h1 {
+    margin-bottom: 30px;
+    padding: 0 20px;
+    text-align: center;
+}
+
+.page div:last-of-type {
+    color: white;
+    width: 500px;
+    max-width: 100%;
+    padding: 0 20px;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+.page div p:last-of-type {
+    background-color: #78C0E0;
+    width: fit-content;
+    padding: 10px 20px;
+    border-radius: 50px;
+    cursor: pointer;
+}
+
+.page div p:last-of-type:hover {
+    transform: scale(1.02);
+}

@@ -1,0 +1,1 @@
+import '../../modules/stores/providers'

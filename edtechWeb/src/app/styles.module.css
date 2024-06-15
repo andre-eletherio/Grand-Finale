@@ -1,0 +1,57 @@
+.page {
+    background-color: #449DD1;
+    width: 1000%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+    max-width: 90%;
+    margin: 0 auto;
+    align-items: center;
+    gap: 20px;
+    background-color: white;
+    border-radius: 40px;
+    padding: 50px 60px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.form p {
+    font-size: 20px;
+}
+
+.form input {
+    font-size: 20px;
+    border: 2px solid #888888;
+    border-radius: 20px;
+    padding: 5px 20px;
+}
+
+.form button {
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 20px;
+    padding: 10px 25px;
+    background-color: #78C0E0;
+    color: white;
+    cursor: pointer;
+}
+
+.form .login {
+    font-size: 14px;
+}
+
+.form .login a {
+    text-decoration: underline;
+}
+
+@media (max-width: 500px) {
+    .form {
+        padding: 50px 20px;
+    }
+}

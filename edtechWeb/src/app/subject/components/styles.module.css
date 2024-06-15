@@ -1,0 +1,15 @@
+.alternative {
+    background-color: white;
+    width: 300px;;
+    max-width: 90%;
+    height: 50px;
+    display: grid;
+    place-content: center;
+    border-radius: 50px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    cursor: pointer;
+}
+
+.alternative:hover {
+    transform: scale(1.02);
+}

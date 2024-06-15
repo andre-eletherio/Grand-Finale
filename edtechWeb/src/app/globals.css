@@ -1,0 +1,83 @@
+:root {
+  --green: #51d95d; /* vermelho */
+  --black: #1E1E1E; /* verde */
+  --dark-green: #08260c; /* azul */
+  --gray: #d9d7d8;
+  --dark-gray: #A2A2A2;
+}
+
+@font-face {
+  font-family: 'jost';
+  src: url('../../public/fonts/Jost-Regular.ttf') format('woff2')
+}
+
+@font-face {
+  font-family: 'tusker';
+  src: url('../../public/fonts/TuskerGrotesk.ttf') format('woff2')
+}
+
+* {
+  scroll-behavior: smooth;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: none;
+  box-sizing: border-box;
+  font-family: 'jost';
+  -webkit-tap-highlight-color: transparent;
+  line-height: 1.1;
+  max-width: 100%;
+}
+
+html {
+  overflow-x: hidden;
+}
+
+*::selection {
+  background: #51d95c5d;
+}
+
+img, iframe, button {
+  user-select: none;
+  -webkit-user-drag: none;
+}
+
+* {
+  scrollbar-width: thin;
+  scrollbar-color: #397524 #DFE9EB;
+}
+
+/* Chrome, Edge and Safari */
+*::-webkit-scrollbar {
+  height: 10px;
+  width: 10px;
+}
+*::-webkit-scrollbar-track {
+  background-color: #DFE9EB;
+}
+
+*::-webkit-scrollbar-track:hover {
+  background-color: #B8C0C2;
+}
+
+*::-webkit-scrollbar-track:active {
+  background-color: #B8C0C2;
+}
+
+*::-webkit-scrollbar-thumb {
+  border-radius: 5px;
+  background-color: var(--green);
+}
+
+*::-webkit-scrollbar-thumb:hover {
+  background-color: var(--green);
+}
+
+*::-webkit-scrollbar-thumb:active {
+  background-color: rgba(41, 167, 51, 0.69)
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}

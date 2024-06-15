@@ -1,0 +1,30 @@
+.page {
+    background-color: #449DD1;
+    width: 1000%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    padding: 30px 0 60px;
+}
+
+.page .back {
+    width: 800px;
+    max-width: 90%;
+}
+
+.page .back p {
+    background-color: #78C0E0;
+    width: fit-content;
+    padding: 10px 30px;
+    border-radius: 50px;
+    cursor: pointer;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.page .back p:hover {
+    transform: scale(1.02);
+}
